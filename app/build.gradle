@@ -9,7 +9,6 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -22,11 +21,11 @@ android {
 //greendao配置
 greendao {
     //版本号，升级时可配置
-    schemaVersion 11
+    schemaVersion 1
     //包名
-    daoPackage "com.wangjing.greendao"
-    //生成目录
-    targetGenDir 'src/main/java'
+//    daoPackage "com.wangjing.greendao"
+//    生成目录
+//    targetGenDir 'src/main/java'
 }
 
 dependencies {

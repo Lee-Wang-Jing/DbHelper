@@ -1,14 +1,17 @@
 package com.wangjing.dbhelper;
 
+import com.wangjing.greendao.DaoMaster;
+import com.wangjing.greendao.DaoSession;
+
 /**
  * 文 件 名: DbCore
  * 说   明: 核心辅助类，用于获取DaoMaster和DaoSession
  * 创 建 人: WangJing
  */
 public class DbCore {
-//    private static final String DEFAULT_DB_NAME = "dbhelper.db";
-//    private static DaoMaster daoMaster;
-//    private static DaoSession daoSession;
+    private static final String DEFAULT_DB_NAME = "dbhelper.db";
+    private static DaoMaster daoMaster;
+    private static DaoSession daoSession;
 //
 //    private static Context mContext;
 //    private static String DB_NAME;
